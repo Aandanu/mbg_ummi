@@ -1,5 +1,5 @@
 import bcrypt
-from koneksi import get_db
+from database.koneksi import get_db
 
 conn = get_db()
 cursor = conn.cursor()
