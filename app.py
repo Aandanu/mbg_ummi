@@ -1,6 +1,7 @@
 import base64
 import os
 import streamlit as st
+import database.init_db
 from auth.login import login_user
 from auth.register import register_siswa
 from pages.admin.data_responden import data_responden
